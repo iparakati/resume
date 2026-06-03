@@ -4,4 +4,3 @@
 
 ## Agentic Assets
 - [Full Context Narrative](llms-full.txt): A comprehensive Markdown export of the candidate's career narrative, biostatistics toolkit, technical stack, and healthcare ROI methodologies.
-- [Structured Profile Data](profile.json): A machine-readable JSON schema defining core competencies, education history, and operational milestones for direct vector database ingestion.
