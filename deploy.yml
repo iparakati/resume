@@ -1,0 +1,47 @@
+name: Build and Deploy Agentic Node
+
+on:
+  push:
+    branches:
+      - main # This triggers the script every time you update your files
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants the server permission to create the gh-pages branch
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install markdown
+
+      - name: Run Build Script
+        run: python build_html.py
+
+      - name: Isolate Production Assets
+        run: |
+          # Create a temporary folder
+          mkdir output
+          
+          # Move ONLY the public-facing files into this folder
+          cp index.html output/
+          cp llms.txt output/
+          cp llms-full.txt output/
+          cp profile.json output/
+          cp .nojekyll output/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
+          force_orphan: true # This keeps the production branch perfectly clean
