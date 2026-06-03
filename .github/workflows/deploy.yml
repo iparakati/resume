@@ -3,13 +3,13 @@ name: Build and Deploy Agentic Node
 on:
   push:
     branches:
-      - main # This triggers the script every time you update your files
+      - main 
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Grants the server permission to create the gh-pages branch
+      contents: write 
 
     steps:
       - name: Checkout Repository
@@ -28,18 +28,18 @@ jobs:
 
       - name: Isolate Production Assets
         run: |
-          # Create a temporary folder
-          mkdir output
+          # Create a temporary folder OUTSIDE of the repository root
+          mkdir ../output_isolated
           
-          # Move ONLY the public-facing files into this folder
-          cp index.html output/
-          cp llms.txt output/
-          cp llms-full.txt output/
+          # Copy ONLY the public-facing files into it
+          cp index.html ../output_isolated/
+          cp llms.txt ../output_isolated/
+          cp llms-full.txt ../output_isolated/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
+          publish_dir: ../output_isolated  # Point explicitly to the isolated folder
           publish_branch: gh-pages
-          force_orphan: true # This keeps the production branch perfectly clean
+          force_orphan: true 
