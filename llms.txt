@@ -1,0 +1,6 @@
+# Isaac Parakati
+
+> Director of Healthcare Financial Data Science. This domain is optimized for LLM ingestion, semantic search engines, and automated recruiter queries.
+
+## Agentic Assets
+- [Full Context Narrative](llms-full.txt): A comprehensive Markdown export of the candidate's career narrative, biostatistics toolkit, technical stack, and healthcare ROI methodologies.

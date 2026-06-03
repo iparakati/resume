@@ -1,0 +1,111 @@
+# Isaac Parakati - Full Context Profile
+
+> Director-level Healthcare Data Science and Analytics Leader. Optimized for automated agent indexing, semantic search retrieval, and machine-to-machine recruitment queries.
+
+---
+
+## Executive Summary
+Director-level healthcare data science, biostatistics, and financial analytics leader with over 10 years of experience spanning payor advisory, health-system finance, clinical operations, claims research, and healthcare policy. Expert at translating high-level executive objectives into data-driven analytical roadmaps, managing data-intensive project portfolios, and leading cross-functional, 5-person project teams. Experienced in partnering with actuarial, finance, clinical, coding, engineering, and executive stakeholders to drive measurable financial and clinical value. 
+
+---
+
+## Technical Skills & Core Competencies
+
+### Data Science & Analytics
+- **Languages:** Python, R, SQL, SAS, STATA
+- **Methodologies:** Causal inference, matched cohort designs, quasi-experimental ROI designs, propensity scores, survival analysis, regression, clustering, machine learning (ML), Social Determinants of Health (SDOH), covariate balance, optimization-based matching.
+- **Natural Language Processing:** Natural Language Processing (NLP), Large Language Models (LLMs), Hugging Face embeddings, spaCy, PHI entity recognition, PDF parsing, structured text extraction.
+
+### Tools, Systems & Data Infrastructure
+- **Healthcare Data Environments:** Claims data, Epic Clarity/Cogito encounter data, Epic Grand Central/Prelude, Lab Information Systems (LIS), HCUP, ACS NSQIP, HIPAA-governed client data.
+- **Business Intelligence & Platforms:** Power BI, PowerBI.com, Tableau, Azure, AWS, GitHub, GitHub Copilot.
+
+### Healthcare Business Expertise
+- **Actuarial & Finance:** Risk adjustment inputs, CMS HCC condition flags, concurrent/prospective risk scores, CPT/ICD-10 cohort logic, quarterly IBNR reserving, actuarial value analysis, medical cost trend forecasting, pricing, plan design analysis, cost-sharing design.
+- **Operations & Compliance:** Regulatory reimbursement, risk management, quality/compliance analytics, data governance, legal-adjacent physician compensation review, executive presentations.
+
+---
+
+## Professional Experience
+
+### Willis Towers Watson (WTW)
+**Director, Healthcare Financial Data Science** (April 2026 – Present)  
+**Associate Director, Healthcare Financial Data Science** (October 2024 – April 2026)  
+*Chicago, IL*
+
+- **Project Portfolio Management:** Lead Statement of Work (SOW) based healthcare analytics advisory services for executive client teams. Manage timelines, budgets, staffing, validation, and client communications from initial scoping through executive delivery for 5 concurrent ROI and financial analytics projects across 11 clients and 3 vendors.
+- **Causal ROI Modeling:** Build rigorous causal ROI analyses for vendor-led chronic disease programs (virtual care, counseling, remote monitoring). Utilize CMS-HCC variables, propensity scores, SDOH controls, covariate balance checks, and optimization-based matching across 3 years of claims data for 5,600 lives and $9M in annual allowed spend.
+- **Outcome Measurement:** Measure patient engagement and ROI for vendor programs utilizing survival analysis and CPT/ICD-10 outcomes to evaluate condition-specific spend, total healthcare spend, diabetes-related inpatient days, allowed spend, and utilization.
+- **Advanced NLP Application:** Apply Hugging Face embedding models to text-based diagnosis notes to generate additional matching features for vendor ROI pipelines; utilize NLP, LLMs, and PDF parsing to transform unstructured healthcare documents into structured analytical inputs.
+- **Infrastructure Architecture:** Design reusable data models and data pipelines integrating HIPAA-governed claims, client data, benchmarks, contracts, and plan documents for MAAA actuary-reviewed client advisory work. Developed defensible methodology documentation, assumptions, and rigorous QA/QC audit-ready support.
+- **Financial & Strategic Impact:** Led 7 paid ROI analyses and formal executive decks, identifying $600K in savings for a client via vendor performance analysis and producing evidence to support critical client contract renewals. Evaluate employer proposals to advise on health plan offerings and cost-sharing design.
+- **Team Leadership:** Direct junior colleagues across concurrent client workstreams. Assign technical analyses, review code and modeling deliverables, support resume/candidate reviews, and standardize team-wide validation and compliance expectations.
+
+---
+
+### Ann & Robert H. Lurie Children's Hospital of Chicago
+**Manager, Medical Group Financial Operations & Senior Data Scientist** (January 2022 – August 2024)  
+**Senior Statistician** (June 2017 – January 2022)  
+*Chicago, IL*
+
+- **Financial Operations Leadership:** Managed financial operations, budgets, staffing analyses, and executive reporting for 4 clinical departments. Directly supervised 1 analyst, led candidate recruitment/hiring, and served as strategic advisor to clinical, finance, operations, and hospital executive leadership.
+- **Analytical Modeling:** Developed robust analytical models and Epic Clarity/Cogito data extracts using R, SAS, SQL, and Python to forecast clinical volumes, quantify reimbursement and cost drivers, optimize operational workflows, and monitor model performance.
+- **Regulatory Reimbursement & Policy:** Partnered with External Affairs and government relations to identify clinical procedures yielding low Medicaid reimbursement; analyzed procedure mixes and payer reimbursement patterns to build a comprehensive data pipeline supporting a successful $33M–$43M state reimbursement proposal.
+- **AI Privacy Innovation:** Built "LLM Cloak," a native spaCy-based privacy prototype designed to detect and mask Protected Health Information (PHI) entities within text prompts before LLM code generation. Successfully demoed the infrastructure to the Chief Medical Officer (CMO) and Chief Operating Officer (COO).
+- **Data Engineering Collaboration:** Defined granular system requirements for data engineers regarding recurring data feeds, database load logic, refresh cadences, and validation checks; monitored refresh alerts and triaged pipeline failures alongside data architects.
+- **Quality, Compliance & KPI Dashboards:** Maintained extensive data dictionary documentation defining KPI logic, metric calculations, and source-system nuances for 14 custom BI dashboards viewed 4+ times per week by 100+ clinical and administrative users. 
+    - Produced procedure and diagnosis cohort counts for U.S. News Best Children's Hospital surveys in coordination with coding teams.
+    - Built lab compliance dashboards using lab information systems data to demonstrate timely critical-result reporting for Joint Commission requirements.
+    - Developed Central Line-Associated Bloodstream Infection (CLABSI) prevention dashboards tracking rounding compliance and infection trends over time, contributing to published quality-improvement work showing an 87.1% compliance centerline and a CLABSI standardized infection ratio (SIR) reduction from 0.90 to 0.53.
+    - Developed an hourly Incident Command COVID-19 dashboard and monthly laboratory utilization reporting presented at hospital town halls to monitor pandemic testing patterns.
+
+---
+
+### Children's Healthcare of Atlanta
+**Quantitative Research Scholar, Dept. of Pediatric Surgery** (August 2015 – May 2017)  
+*Atlanta, GA*
+
+- **Biostatistical Research:** Conducted and published complex survival analysis research investigating the operational and policy tradeoffs between length of stay (LOS), patient readmissions, hospital capacity, and healthcare cost structures. Translated advanced statistical findings into highly actionable operational and policy implications.
+
+---
+
+### University of Chicago Medical Center
+**Research Assistant, Dept. of Anesthesiology** (May 2012 Jun 2015)  
+*Chicago, IL*
+
+- **Big Data Analytics:** Analyzed 1 TB+ Healthcare Cost and Utilization Project (HCUP) claims datasets using SAS on Linux environments. Employed CPT and ICD diagnosis/procedure codes to construct clinical cohorts, compare longitudinal treatment effectiveness, and model post-surgical outcome risk factors using reproducible regression workflows.
+
+---
+
+## Selected Advisory Project Highlights
+
+- **Healthcare ROI Advisory:** Coordinate 5 concurrent ROI projects; previously steered 7 paid ROI analyses, including a health vendor performance evaluation that isolated $600K in client savings.
+- **Project Lifecycle Management:** Manage full-lifecycle timelines, budgets, staffing allocations, methodology documentation, and client-facing advisory communications from scoping to executive presentation.
+- **Regulatory Reimbursement:** Authored a data-backed Medicaid reimbursement analysis and interactive Power BI KPI framework supporting a $33M–$43M state funding proposal in alignment with Government Relations.
+- **Quality and Compliance Analytics:** Engineered critical-result reporting frameworks for Joint Commission auditing and automated CLABSI committee monitoring frameworks supporting published patient-safety initiatives.
+- **Compensation Risk Management:** Collaborated alongside attorneys and executive leadership to evaluate physician salary compliance and architect benchmark-supported physician compensation tracking systems.
+
+---
+
+## Education
+
+### University of Chicago Booth School of Business
+**Master of Business Administration (MBA)** (Graduating June 6, 2026)  
+- **Concentrations:** Finance, Accounting, Econometrics & Statistics, Operations Management.
+
+### Emory University, Rollins School of Public Health
+**Master of Science in Public Health (MSPH)** (May 2017)  
+- **Specialization:** Biostatistics
+
+### University of Chicago
+**Bachelor of Science (BS)** (June 2015)  
+- **Major:** Mathematics
+
+---
+
+## Selected Publications & Presentations
+
+- **Publication:** Hugo MC, Rzucidlo RR, Weisert LM, **Parakati I**, Schroeder SK. *Quality-improvement initiative to increase central-line maintenance bundle compliance through nursing-led rounds.* Pediatric Quality & Safety. 2022.
+- **Publication:** Short HL, **Parakati I**, Heiss KF, Wulkan ML, Sweeney JF, Raval MV. *Challenge of balancing duration of stay and readmissions in children's operations.* Surgery. 2017.
+- **Publication:** Lin DC, **Parakati I**, Haymond S. *The impact of COVID-19 on laboratory test utilization at a pediatric medical center.* Journal of Applied Laboratory Medicine. 2022.
+- **Invited Presentations:** Delivered technical presentations on healthcare readmissions/length of stay modeling, Power BI lifecycle automation, Joint Commission critical-value reporting, and laboratory turnaround-time data monitoring.
