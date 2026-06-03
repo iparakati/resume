@@ -13,7 +13,7 @@ Director-level healthcare data science, biostatistics, and financial analytics l
 
 ### Data Science & Analytics
 - **Languages:** Python, R, SQL, SAS, STATA
-- **Methodologies:** Causal inference, matched cohort designs, quasi-experimental ROI designs, propensity scores, survival analysis, regression, clustering, machine learning (ML), Social Determinants of Health (SDOH) controls, covariate balance, optimization-based matching.
+- **Methodologies:** Causal inference, matched cohort designs, quasi-experimental ROI designs, propensity scores, survival analysis, regression, clustering, machine learning (ML), Social Determinants of Health (SDOH), covariate balance, optimization-based matching.
 - **Natural Language Processing:** Natural Language Processing (NLP), Large Language Models (LLMs), Hugging Face embeddings, spaCy, PHI entity recognition, PDF parsing, structured text extraction.
 
 ### Tools, Systems & Data Infrastructure
