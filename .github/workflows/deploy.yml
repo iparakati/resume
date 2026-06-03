@@ -35,7 +35,6 @@ jobs:
           cp index.html output/
           cp llms.txt output/
           cp llms-full.txt output/
-          cp .nojekyll output/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
